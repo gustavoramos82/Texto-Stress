@@ -1,2 +1,42 @@
-# Texto-Stress
-Neste repositório será criar um algoritmo de machine learnin para classificar se o texto passa um stress ou não
+# Predição de Stress Humano
+
+Neste projeto, será feito uma *análise de sentimentos* para avaliar se o texto apresenta o stress ou não, a partir de dataset obtido no *kaggle* (que pode ser obtido [aqui](https://www.kaggle.com/datasets/kreeshrajani/human-stress-prediction)) na qual foi extraido texto de comunidades no reddit.
+
+## Análise Exploratória
+
+Foi escolhido do datset apenas três colunas, sendo elas:
+
+- **Subreddit**: Comunidade de onde o texto foi retirado;
+- **Texto**: Texto que será utilizado para detecção de stress;
+- **label**: 1 se for pra stress, 0 caso contrário.
+
+Se olharmos a quatidade de labels, veremos que os mesmo tem quase a mesma qualidade, ou seja, não há um desbalanceamento dos dados.
+
+![image](https://user-images.githubusercontent.com/39843884/229916976-cb41e149-6150-4055-b34d-b29a63b38cbe.png)
+
+Por comunidade, veremos que as comunidade que tem mais textos tem a ver com relações, ansiedade e ptsd (stress pós-traumático).
+
+![image](https://user-images.githubusercontent.com/39843884/229917453-947c94e3-1d7d-4b50-89d6-e488d758f50c.png)
+
+Separando as comunidades por label, temos que algumas comunidades apresentam mais textos como stress do que outras, como ansiedade e ptsd, que apresnetam mais textos com stress
+
+![image](https://user-images.githubusercontent.com/39843884/229918220-6e5d7c39-8e10-4313-a8b9-3aa5ca06d5df.png)
+
+- Comparando os wordclous entre textos com stress e sem, vemos que não há muito difrença nas palavras, apenas a palavra ansiedade que se tem no texto com stress.
+
+Wordcloud do texto sem stress
+![image](https://user-images.githubusercontent.com/39843884/229918857-e9624d71-132a-4af3-8f31-0ce5b606b07b.png)
+
+Wordcloud do texto com stress
+![image](https://user-images.githubusercontent.com/39843884/229919309-142d350b-6365-4b19-aeda-bf8c82d67890.png)
+
+## Modelagem
+
+Depois de um pré-processamento, foi dividido o dataset em 70% de treino e 30% de teste, da qual se utilizou vários algoritmos de machine learning, da qual se obteve os seguintes resultados.
+
+![image](https://user-images.githubusercontent.com/39843884/229920628-d433cf17-cb14-4181-85af-bd2f7db65eb9.png)
+
+Vemos que a maioria das métricas está em torno de 70%, sendo os modelos que tiveram as melhores perfomace foram svm com kernel sigmoid, extra tree, rando forest e naive bayes.
+
+
+
