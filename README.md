@@ -40,5 +40,17 @@ Depois de um pré-processamento, foi dividido o dataset em 70% de treino e 30% d
 
 Vemos que a maioria das métricas está em torno de 70%, sendo os modelos que tiveram as melhores perfomace foram svm com kernel sigmoid, extra tree, rando forest e naive bayes.
 
+## Consideraçẽs Finais
 
+Comparando as métircas, podemos ver que:
+
+- Comparando as métricas, podemos ver que os modelos com melhor perfomace foram  *Multinomial NB* (naive bayes), *SVM* com kernel sigmoid, e o *Catboost*.
+
+- Poderia ser feito o metodo embbeding na tokenização;
+
+- Fazer o cross-validation para comparar o resultado de vários testes.
+
+![image](https://user-images.githubusercontent.com/39843884/233484847-7c15a251-c252-497d-a244-3b67e3ffc5e8.png)
+
+- Fazer uma maior investigação pra ver se existem termos que tem mais uma classe do que outro.
 
