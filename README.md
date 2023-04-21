@@ -34,6 +34,8 @@ Wordcloud do texto com stress
 
 Depois de um pré-processamento, foi dividido o dataset em 70% de treino e 30% de teste, da qual se utilizou vários algoritmos de machine learning, da qual se obteve os seguintes resultados.
 
+(Se quiser entender um pouco mais sobre clique [aqui](https://github.com/gustavoramos82/Texto-Stress/blob/main/M%C3%A9tricas%20de%20Clasiifica%C3%A7%C3%A3o.md)).
+
 ![image](https://user-images.githubusercontent.com/39843884/229920628-d433cf17-cb14-4181-85af-bd2f7db65eb9.png)
 
 Vemos que a maioria das métricas está em torno de 70%, sendo os modelos que tiveram as melhores perfomace foram svm com kernel sigmoid, extra tree, rando forest e naive bayes.
