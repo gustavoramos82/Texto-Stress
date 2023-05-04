@@ -2,6 +2,8 @@
 
 Neste projeto, será feito uma *análise de sentimentos* para avaliar se o texto apresenta o stress ou não, a partir de dataset obtido no *kaggle* (que pode ser obtido [aqui](https://www.kaggle.com/datasets/kreeshrajani/human-stress-prediction)) na qual foi extraido texto de comunidades no reddit.
 
+Se quiser ler mais sobre o tema de **NLP** pode acessar o material no notion [aqui](https://flint-texture-e2f.notion.site/NLP-53af1cee1fed4ae8aaa70e8a77cc1a74) no qual está os materiais que estudei e os slides.
+
 ## Análise Exploratória
 
 Foi escolhido do datset apenas três colunas, sendo elas:
