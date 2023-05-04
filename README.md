@@ -53,4 +53,4 @@ Comparando as métircas, podemos ver que:
 ![image](https://user-images.githubusercontent.com/39843884/233484847-7c15a251-c252-497d-a244-3b67e3ffc5e8.png)
 
 - Fazer uma maior investigação pra ver se existem termos que tem mais uma classe do que outro.
-
+- Aplicar otimização de hiperparametros nos modelos que tiveram as melhores perfomaces.
