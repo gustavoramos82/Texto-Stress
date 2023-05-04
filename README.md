@@ -48,7 +48,7 @@ Comparando as métircas, podemos ver que:
 
 - Poderia ser feito o metodo embbeding na tokenização;
 
-- Fazer o cross-validation para comparar o resultado de vários testes.
+- Fazer o cross-validation para comparar o resultado de vários testes (para saber melhor o que é cross-validation clique [aqui](https://medium.com/@edubrazrabello/cross-validation-avaliando-seu-modelo-de-machine-learning-1fb70df15b78)).
 
 ![image](https://user-images.githubusercontent.com/39843884/233484847-7c15a251-c252-497d-a244-3b67e3ffc5e8.png)
 
