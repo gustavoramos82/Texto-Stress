@@ -5,6 +5,9 @@ A fonte para essa explicação pode ser acessado [aqui](https://medium.com/kunum
 As métricas de clasicação são obtidas a partir da matriz de confusão, que permite visualizar facilmente quantos exemplos foram classificados corretamente e erroneamente em cada classe, ajudando a entender se o modelo está favorecendo uma classe em detrimento da outra.
 
 ![image](https://camo.githubusercontent.com/15cb5abf76184b9d2ee730802fe72e36fd824553aee195d1b6e0e053a41ff997/68747470733a2f2f757365722d696d616765732e67697468756275736572636f6e74656e742e636f6d2f33393834333838342f3233333437393434322d63613439396665382d383730312d343838352d616166392d3039656661313038313438612e706e67)
+
+![image](https://user-images.githubusercontent.com/39843884/236320938-e8cf0abf-068a-4d6a-aa51-a73100f7ac05.png)
+
 - **Precisão**: Esta métrica é definida pela razão entre a quantidade de exemplos classificados corretamente como positivos e o total de exemplos classificados como positivos.
 
   
