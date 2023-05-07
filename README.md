@@ -45,7 +45,7 @@ Depois de um pré-processamento, foi dividido o dataset em 70% de treino e 30% d
 Comparando as métircas, podemos ver que:
 
 - Comparando as métricas, podemos ver que os modelos com melhor perfomace foram  *Multinomial NB* (naive bayes), *SVM* com kernel sigmoid, e o *Catboost*.
-- Comparando o acertos que os modelos tiveram, podemos ver a partir desses gráficos, que o modelo *Multinomial NB*  acerto um pouco mais de texto sem stress, entretanto errou mais texto com stress
+- Comparando o acertos que os modelos tiveram, podemos ver a partir desses gráficos, que o modelo *Multinomial NB*  acerto um pouco mais de texto sem stress, entretanto errou mais texto com stress, para ler mais sobre esse grá fico clique [aqui](https://www.scikit-yb.org/en/latest/api/classifier/class_prediction_error.html).
 
 ![image](https://user-images.githubusercontent.com/39843884/236686962-3ea0cbe2-5903-4eab-8a4a-217d7d8a586a.png)
 
