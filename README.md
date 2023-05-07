@@ -45,6 +45,13 @@ Depois de um pré-processamento, foi dividido o dataset em 70% de treino e 30% d
 Comparando as métircas, podemos ver que:
 
 - Comparando as métricas, podemos ver que os modelos com melhor perfomace foram  *Multinomial NB* (naive bayes), *SVM* com kernel sigmoid, e o *Catboost*.
+- Comparando o acertos que os modelos tiveram, podemos ver a partir desses gráficos, que o modelo *Multinomial NB*  acerto um pouco mais de texto sem stress, entretanto errou mais texto com stress
+
+![image](https://user-images.githubusercontent.com/39843884/236686962-3ea0cbe2-5903-4eab-8a4a-217d7d8a586a.png)
+
+![image](https://user-images.githubusercontent.com/39843884/236687009-0c3c21ec-42c4-458d-a877-bcf1a91175f5.png)
+
+![image](https://user-images.githubusercontent.com/39843884/236687040-6c4d6d5e-4cf3-4f82-be86-92b9b7b10929.png)
 
 - Poderia ser feito o metodo embbeding na tokenização;
 
@@ -54,3 +61,5 @@ Comparando as métircas, podemos ver que:
 
 - Fazer uma maior investigação pra ver se existem termos que tem mais uma classe do que outro.
 - Aplicar otimização de hiperparametros nos modelos que tiveram as melhores perfomaces.
+
+
